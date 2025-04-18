@@ -1,3 +1,5 @@
+
+/* header  */
 .header {
   display: flex;
   justify-content: space-between;
@@ -55,6 +57,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+    transition-duration: 250ms;
+    border: 1px solid #39763B;
+}
+
+.suport__button:hover{
+  border: 1px solid #39763B;
+  background: #88BE47;
+  transition-duration: 250ms;
 }
 
 .header__country {
@@ -152,7 +162,7 @@
 }
 
 .hero__signature {
-  color: var(--Black-people-0, #2a2d26);
+  color: #2a2d26;
   text-align: right;
   font-family: "Roboto";
   font-size: 16px;
@@ -276,8 +286,10 @@
 }
 
 .thanks__button{
+  transition-duration: 250ms;
     border: none;
 background: #39763B;
+border: 1px solid #39763B;
 display: flex;
 padding: 16px 32px;
 justify-content: center;
@@ -292,3 +304,67 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+.thanks__button:hover{
+  border: 1px solid #39763B;
+  background: #88BE47;
+  transition-duration: 250ms;
+}
+
+/* footer */
+
+.footer{
+  background-color: #5F9156;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 103px;
+  padding-bottom: 38px;
+}
+
+.footer__answer{
+  color: #FAFFF5;
+text-align: center;
+font-size: 29px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer__mail{
+  color: #FAFFF5;
+margin-top: 24px;
+margin-bottom: 24px;
+font-family: Mariupol;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer__list{
+  display: flex;
+  width: 172px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__svg{
+  fill:#FAFFF5;
+  width: 48px;
+height: 48px;
+flex-shrink: 0;
+}
+
+.footer__end{
+  margin-top: 108px;
+  color: #FAFFF5;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
