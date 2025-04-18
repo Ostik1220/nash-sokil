@@ -1,0 +1,294 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 80px;
+  height: 81px;
+}
+
+.header__text {
+  color: #2a2d26;
+
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.header__item {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.header__select {
+  background-color: transparent;
+  border: none;
+  padding-top: 2px;
+}
+
+.header__svg {
+  width: 24px;
+  height: 24px;
+}
+
+.suport__button {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #39763b;
+  border: none;
+  color: #fafff5;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__country {
+  display: flex;
+  width: 32px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+}
+
+/* hero */
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.hero__first {
+  display: flex;
+  width: 579px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero__title {
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px; /* 130% */
+  position: relative;
+}
+
+.hero__leaf {
+  width: 50px;
+  height: 39px;
+  transform: rotate(12.928deg);
+  flex-shrink: 0;
+  position: absolute;
+  top: 180px;
+  left: 155px;
+  z-index: -2;
+}
+
+.hero__flower {
+  width: 28px;
+  height: 32px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 253px;
+  left: 563px;
+  z-index: -2;
+}
+
+.hero__second {
+  display: flex;
+  width: 698px;
+  height: 452px;
+  flex-shrink: 0;
+  align-items: flex-end;
+}
+
+.hero__woman {
+  width: 291px;
+  height: 452px;
+  flex-shrink: 0;
+  aspect-ratio: 291/452;
+}
+
+.hero__logo {
+  width: 400px;
+  height: 404px;
+  flex-shrink: 0;
+}
+
+.hero__third {
+  display: flex;
+  gap: 51px;
+}
+
+.hero__qoute {
+  color: #2a2d26;
+  font-family: "Tinos";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero__signature {
+  color: var(--Black-people-0, #2a2d26);
+  text-align: right;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero__box {
+  display: flex;
+  width: 528px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+.hero__description {
+  color: #2a2d26;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* help */
+.help {
+  padding-top: 45px;
+  padding-bottom: 50px;
+  background: #fafff5;
+  position: relative;
+  z-index: -3;
+}
+
+.help__title {
+  color: #2a2d26;
+
+  font-family: "Tinos";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  margin-bottom: 80px;
+  z-index: 2;
+  display: block;
+}
+
+.help__flower {
+  width: 28px;
+  height: 32px;
+  position: absolute;
+  left: 485px;
+  top: 43px;
+  z-index: -1;
+}
+.help__leaf_one {
+  width: 35px;
+  height: 19px;
+  left: 595px;
+  top: 54px;
+  position: absolute;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+.help__leaf_two {
+  width: 35px;
+  height: 21px;
+  transform: rotate(-138.349deg);
+  position: absolute;
+  left: 764px;
+  top: 65px;
+  z-index: -1;
+}
+
+.help__list {
+  display: flex;
+  gap: 247px;
+  justify-content: center;
+}
+
+.help__item {
+  background-color: #e6f0d7;
+  padding-top: 38px;
+  display: flex;
+  width: 405px;
+  height: 448px;
+  padding: 38.311px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32.838px;
+  flex-shrink: 0;
+  gap: 32.8px;
+}
+
+.help__photo_one {
+  width: 315px;
+  height: 286px;
+}
+
+.help__photo_two {
+  width: 329px;
+  height: 247px;
+}
+
+.help__discription {
+  color: #2a2d26;
+  text-align: center;
+
+  font-family: "Tinos";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+}
+
+/* thanks */
+
+.thanks{
+    padding-top: 103px;
+    padding-bottom: 102px;
+    display: flex;
+    justify-content: center;
+}
+
+.thanks__button{
+    border: none;
+background: #39763B;
+display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+color:  #FAFFF5;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
