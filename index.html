@@ -19,12 +19,12 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="container">
       <header class="header">
-        <img src="./pictures/logo.png" alt="logotype" class="header__logo" />
+        <div class="container cont__header">
+        <img src="./pictures/logo.png" alt="logotype" class="header__logo" href="index.html"/>
         <ul class="header__list">
           <li class="header__item">
-            <p class="header__text">Головна</p>
+            <a class="header__text" href="index.html">Головна</a>
             <button class="header__select">
               <svg class="header__svg">
                 <use href="./pictures/symbol-defs.svg#icon-arrow-down" />
@@ -32,7 +32,7 @@
             </button>
           </li>
           <li class="header__item">
-            <p class="header__text">Про нас</p>
+            <a class="header__text" href="./about-us.html">Про нас</a>
             <button class="header__select">
               <svg class="header__svg">
                 <use href="./pictures/symbol-defs.svg#icon-arrow-down" />
@@ -40,26 +40,30 @@
             </button>
           </li>
           <li class="header__item">
-            <p class="header__text">Сокіл новини</p>
+            <a class="header__text">Сокіл новини</a>
           </li>
           <li class="header__item">
-            <p class="header__text">Партнери та друзі</p>
+            <a class="header__text">Партнери та друзі</a>
           </li>
           <li class="header__item">
-            <p class="header__text">Контакти</p>
+            <a class="header__text">Контакти</a>
           </li>
         </ul>
         <button class="suport__button">Підтримати</button>
         <div class="header__box">
-          <img src="./pictures/ukraine.png" alt="" class="header__country" />
-          <button class="header__select">
-            <svg class="header__svg">
+          <img src="./pictures/ukraine.png" alt="" class="header__country" id="ukraine"/>
+          <img src="./pictures/ukraine.png" alt="" class="header__country" id="place"/>
+          <img src="./pictures/usa.png" alt="" class="header__country" id="usa"/>
+          <button class="header__select" id="languageHeader">
+            <svg class="header__svg" id="languageHeaderArrow">
               <use href="./pictures/symbol-defs.svg#icon-arrow-down" />
             </svg>
           </button>
         </div>
+      </div>
       </header>
       <div class="hero">
+        <div class="container cont__hero">
         <div class="hero__first">
           <h1 class="hero__title">
             Благодійна Організація Благодійний Фонд<br />
@@ -87,7 +91,9 @@
           </h6>
         </div>
       </div>
+      </div>
       <div class="help">
+        <div class="container cont__help">
         <img src="./pictures/flower.png" alt="" class="help__flower" />
         <img src="./pictures/leaf.png" alt="" class="help__leaf_one" />
         <img src="./pictures/leaf.png" alt="" class="help__leaf_two" />
@@ -103,10 +109,14 @@
           </li>
         </ul>
       </div>
+      </div>
       <div class="thanks">
+        <div class="container cont__thanks">
         <button type="button" class="thanks__button">Вдячні за донати</button>
+        </div>
       </div>
       <footer class="footer">
+        <div class="container cont__footer">
         <h2 class="footer__answer">Для запитань</h2>
         <p class="footer__mail">nashsokil@gmail.com</p>
         <ul class="footer__list">
@@ -123,7 +133,8 @@
         </ul>
 
         <p class="footer__end">©2024 “Наш Сокіл”</p>
+      </div>
       </footer>
-    </div>
+      <script type="module" src="./js/header.js"></script>
   </body>
 </html>

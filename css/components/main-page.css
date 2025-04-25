@@ -1,6 +1,6 @@
 
 /* header  */
-.header {
+.cont__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +36,7 @@
   background-color: transparent;
   border: none;
   padding-top: 2px;
+  transition-duration: 250ms;
 }
 
 .header__svg {
@@ -75,6 +76,22 @@
   align-items: center;
 }
 
+#usa{
+  position: absolute;
+  top: 80px;
+  visibility:hidden;
+  cursor: none;
+}
+
+#ukraine{
+  position: absolute;
+  top: 45px;
+}
+
+#place{
+  visibility: none;
+}
+
 .header__box {
   display: flex;
   align-items: center;
@@ -82,7 +99,7 @@
 
 /* hero */
 
-.hero {
+.cont__hero {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 50px;
@@ -187,12 +204,14 @@
 }
 
 /* help */
-.help {
-  padding-top: 45px;
-  padding-bottom: 50px;
+.help{
   background: #fafff5;
   position: relative;
-  z-index: -3;
+  z-index: 1;
+}
+.cont__help {
+  padding-top: 45px;
+  padding-bottom: 50px;
 }
 
 .help__title {
@@ -204,7 +223,7 @@
   font-weight: 400;
   line-height: 44px;
   margin-bottom: 80px;
-  z-index: 2;
+  z-index: 5;
   display: block;
 }
 
@@ -212,14 +231,14 @@
   width: 28px;
   height: 32px;
   position: absolute;
-  left: 485px;
+  left: 605px;
   top: 43px;
   z-index: -1;
 }
 .help__leaf_one {
   width: 35px;
   height: 19px;
-  left: 595px;
+  left: 695px;
   top: 54px;
   position: absolute;
   transform: rotate(90deg);
@@ -230,7 +249,7 @@
   height: 21px;
   transform: rotate(-138.349deg);
   position: absolute;
-  left: 764px;
+  left: 869px;
   top: 65px;
   z-index: -1;
 }
@@ -278,7 +297,7 @@
 
 /* thanks */
 
-.thanks{
+.cont__thanks{
     padding-top: 103px;
     padding-bottom: 102px;
     display: flex;
@@ -315,6 +334,9 @@ line-height: normal;
 
 .footer{
   background-color: #5F9156;
+}
+.cont__footer{
+
   font-family: Roboto;
   display: flex;
   align-items: center;
