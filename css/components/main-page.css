@@ -24,12 +24,14 @@
   justify-content: center;
   align-items: center;
   gap: 52px;
+  position: relative;
 }
 
 .header__item {
   display: flex;
   gap: 8px;
   justify-content: center;
+
 }
 
 .header__select {
@@ -43,7 +45,18 @@
   width: 24px;
   height: 24px;
 }
-
+.header__our-help{
+  position: absolute;
+  color: #2a2d26;
+ top: 30px;
+ left: 0px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  visibility: hidden;
+  transition-duration: 250ms;
+}
 .suport__button {
   display: flex;
   padding: 12px 24px;

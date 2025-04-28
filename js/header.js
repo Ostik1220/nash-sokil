@@ -19,6 +19,16 @@ headerUSA.addEventListener("click", () =>{
         headerUkranie.style.top = "80px"
         
 })
+const arrowFirst = document.querySelector("#arrow-first")
+arrowFirst.addEventListener("click", () => {
+    if ( arrowFirst.style.transform === "rotate(180deg)"){
+       document.querySelector(".header__our-help").style.visibility = "hidden"
+           } else {
+           document.querySelector(".header__our-help").style.visibility = "visible"
+           }
+
+})
+
 headerUkranie.addEventListener("click", () =>{
     document.querySelector("#languageHeaderArrow").style.transform = "rotate(360deg)"
     headerUkranie.style.top = "45px"
@@ -27,3 +37,14 @@ headerUkranie.addEventListener("click", () =>{
     headerUSA.style.top = "80px"
     
 })
+ function rotateOnClick(e){
+   if ( e.style.transform === "rotate(180deg)"){
+e.style.transform = "rotate(0deg)"
+   } else {
+    e.style.transform = "rotate(180deg)"
+   }
+   return console.log(e)
+ }
+const headerArrows = document.querySelectorAll(".header__select")
+headerArrows.forEach((arrow) => arrow.addEventListener("click", () => rotateOnClick(arrow))
+)
