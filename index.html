@@ -22,6 +22,9 @@
       <header class="header">
         <div class="container cont__header">
         <img src="./pictures/logo.png" alt="logotype" class="header__logo" href="index.html"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none" class="header__mobile-menu">
+          <path d="M5 30.5V27.1667H35V30.5H5ZM5 22.1667V18.8333H35V22.1667H5ZM5 13.8333V10.5H35V13.8333H5Z" fill="#39763B"/>
+        </svg>
         <ul class="header__list">
           <li class="header__item">
             <a class="header__text" href="index.html">Головна</a>
@@ -34,12 +37,16 @@
           <a href="" class="header__our-help">Кому допомогаємо</a>
           <li class="header__item">
             <a class="header__text" href="./about-us.html">Про нас</a>
-            <button class="header__select">
+            <button class="header__select" id="arrow-second">
               <svg class="header__svg">
                 <use href="./pictures/symbol-defs.svg#icon-arrow-down" />
               </svg>
             </button>
           </li>
+          <div class="header__popout">
+          <a href="" class="header__projects" >Проєкти</a>
+          <a href="" class="header__team" >Команда</a>
+        </div>
           <li class="header__item">
             <a class="header__text">Сокіл новини</a>
           </li>
@@ -63,7 +70,7 @@
         </div>
       </div>
       </header>
-      <div class="hero">
+      <!-- <div class="hero">
         <div class="container cont__hero">
         <div class="hero__first">
           <h1 class="hero__title">
@@ -135,7 +142,7 @@
 
         <p class="footer__end">©2024 “Наш Сокіл”</p>
       </div>
-      </footer>
+      </footer> -->
       <script type="module" src="./js/header.js"></script>
   </body>
 </html>

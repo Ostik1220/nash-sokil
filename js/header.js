@@ -28,6 +28,15 @@ arrowFirst.addEventListener("click", () => {
            }
 
 })
+const arrowSecond = document.querySelector("#arrow-second")
+arrowSecond.addEventListener("click", () => {
+    if ( arrowSecond.style.transform === "rotate(180deg)"){
+       document.querySelector(".header__popout").style.visibility = "hidden"
+           } else {
+           document.querySelector(".header__popout").style.visibility = "visible"
+           }
+
+})
 
 headerUkranie.addEventListener("click", () =>{
     document.querySelector("#languageHeaderArrow").style.transform = "rotate(360deg)"

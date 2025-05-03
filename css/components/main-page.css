@@ -1,9 +1,26 @@
 
 /* header  */
 .cont__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+display: flex;
+position: relative;
+align-items: center;
+  @media screen and (min-width: 1280px) {
+    visibility: visible;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.header__mobile-menu{
+  width: 40px;
+height: 40px;
+fill: #39763B;
+position: absolute;
+right: 0px;
+@media screen and (min-width: 1280px) {
+  visibility: hidden;
+  opacity: 0;
+
+}
 }
 
 .header__logo {
@@ -12,25 +29,39 @@
 }
 
 .header__text {
-  color: #2a2d26;
+visibility: hidden;
+  @media screen and (min-width: 1280px) {
+    visibility: visible;
+    color: #2a2d26;
 
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+  }
 }
 .header__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 52px;
-  position: relative;
-}
+visibility: hidden;
+    @media screen and (min-width: 1280px) {
+      visibility: visible;
+      max-width: 1280px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 52px;
+      position: relative;
+    }
+  }
+
 
 .header__item {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
+visibility: hidden;
+  @media screen and (min-width: 1280px) {
+    visibility: visible;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
 
 }
 
@@ -57,28 +88,58 @@
   visibility: hidden;
   transition-duration: 250ms;
 }
-.suport__button {
+
+.header__popout{
   display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  background: #39763b;
-  border: none;
-  color: #fafff5;
+  flex-direction: column;
+  align-items: flex-start;
   text-align: center;
+  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-    transition-duration: 250ms;
-    border: 1px solid #39763B;
+  line-height: 28px; 
+  position: absolute;
+  top:30px;
+  left: 180px;
+  visibility: hidden;
+}
+
+.header__projects{
+  color: #2A2D26;
+}
+
+.header__team{
+  color: #2A2D26;
+}
+.suport__button {
+visibility: hidden;
+    @media screen and (min-width: 1280px) {
+      visibility: visible;
+      display: flex;
+      padding: 12px 24px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      background: #39763b;
+      border: none;
+      color: #fafff5;
+      text-align: center;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+        transition-duration: 250ms;
+        border: 1px solid #39763B;
+    }
 }
 
 .suport__button:hover{
-  border: 1px solid #39763B;
-  background: #88BE47;
-  transition-duration: 250ms;
+    visibility: visible;
+    border: 1px solid #39763B;
+    background: #88BE47;
+    transition-duration: 250ms;
+  
 }
 
 .header__country {
@@ -106,9 +167,15 @@
 }
 
 .header__box {
-  display: flex;
-  align-items: center;
+visibility: hidden;
+  @media screen and (min-width: 1280px) {
+    visibility: visible;
+    display: flex;
+    align-items: center;
+  }
 }
+
+
 
 /* hero */
 
