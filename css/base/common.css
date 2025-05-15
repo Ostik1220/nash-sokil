@@ -22,10 +22,21 @@
     color: #2A2D26;
   }
 
+h2{
+    font-family: "Tinos";
+}
+
   p,
   h6{
     font-family: 'Roboto';
     color: #2A2D26;
+  }
+
+  p{
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
   }
 
   body{

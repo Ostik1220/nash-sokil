@@ -1,0 +1,137 @@
+.about-us-body {
+  background: #fafff5;
+}
+
+/* start */
+
+.start {
+  padding-top: 100px;
+  margin-bottom: 48px;
+  background: linear-gradient(#fafff5d3, #fafff5d3),
+    url("../../pictures/logo.png");
+  background-size: 1000px 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.start-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 76px;
+  position: relative;
+  z-index: 3;
+}
+
+.start-flower-one {
+  height: 34px;
+  width: 34px;
+  position: absolute;
+  z-index: -1;
+  left: 503px;
+  top: -2px;
+  rotate: 150deg;
+}
+.start-leaf-one {
+  width: 32px;
+  height: 22px;
+  position: absolute;
+  z-index: -1;
+  rotate: 320deg;
+  top: 14px;
+  left: 607px;
+}
+.start-leaf-two {
+  width: 22px;
+  height: 39px;
+  position: absolute;
+  z-index: -1;
+  left: 729px;
+}
+.start-flower-two {
+  height: 31px;
+  width: 31px;
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 770px;
+}
+
+.start-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.start-item {
+  display: flex;
+  gap: 33px;
+  background: #e6f0d7;
+  padding: 24px;
+  align-items: center;
+}
+
+.start-item:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.start-pic {
+  width: 356px;
+  height: 267px;
+}
+
+.au-gallery {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 92px;
+  height: 306px;
+}
+
+/* project */
+
+.project-main-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 122.222% */
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  padding-bottom: 80px;
+  background: linear-gradient(#fafff5d3, #fafff5d3),
+    url("../../pictures/logo.png");
+  background-size: 1000px 1000px;
+  background-position: center;
+  background-repeat: space;
+}
+
+.project-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.project-item {
+  display: flex;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.project-project {
+  display: flex;
+  width: 624px;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.project-img {
+  height: 296px;
+  align-self: stretch;
+  background: #9c9c9c;
+}

@@ -1,5 +1,9 @@
 
 /* header  */
+header{
+  background: #E6F0D7;
+  height: 110px;
+}
 .cont__header {
 display: flex;
 position: relative;

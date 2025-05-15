@@ -1,3 +1,6 @@
 @import"./base/reset.css";
 @import"./base/common.css";
 @import"./components/main-page.css";
+@import"./components/about-us-page.css";
+@import"./components/help-page.css";
+@import"./components/civilian.css"
