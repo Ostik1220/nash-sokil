@@ -1,0 +1,112 @@
+.partners{
+    padding-top: 100px;
+    padding-bottom: 106px;
+            background: linear-gradient(#fafff5d3, #fafff5d3),
+    url("../../pictures/logo.png");
+  background-size: auto auto,1000px 1000px ;
+  background-position: top;
+  background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 186px;
+
+}
+
+.partners-containre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.partners-title{
+    color: #000;
+text-align: center;
+font-family: "Tinos";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 44px; /* 122.222% */
+position: relative;
+margin-bottom: 52px;
+}
+
+.partners-flower{
+    width: 33.129px;
+height: 32.096px;
+flex-shrink: 0;
+position: absolute;
+top: -1px;
+left: -10px;
+z-index: -1;
+}
+
+.partners-leaf{
+ width: 30.627px;
+height: 22.23px;
+transform: rotate(291deg);
+flex-shrink: 0;
+position: absolute;
+top: 16px;
+left: 98px;
+z-index: -1;
+}
+
+.partners-list{
+    display: flex;
+}
+
+.partners-item{
+    display: flex;
+width: 300px;
+flex-direction: column;
+align-items: center;
+flex-shrink: 0;
+align-self: stretch;
+}
+
+.partners-photo{
+    width: 280px;
+height: 280px;
+margin-bottom: 20px;
+}
+
+.partners-name{
+    color: #2A2D26;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 8px;
+}
+
+.partners-text{
+color: #2A2D26;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.partners-button{
+    display: flex;
+width: 556px;
+height: 102px;
+padding: 16px 32px;
+margin-top: 58px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+background: #39763B;
+color:  #FAFFF5;
+text-align: center;
+font-family: "Roboto";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+}
