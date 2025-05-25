@@ -18,12 +18,27 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="thanks-body">
     <header class="header">
-        <div class="container cont__header">
-        <img src="./pictures/logo.png" alt="logotype" class="header__logo" href="index.html"/>
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none" class="header__mobile-menu">
-          <path d="M5 30.5V27.1667H35V30.5H5ZM5 22.1667V18.8333H35V22.1667H5ZM5 13.8333V10.5H35V13.8333H5Z" fill="#39763B"/>
+      <div class="container cont__header">
+        <img
+          src="./pictures/logo.png"
+          alt="logotype"
+          class="header__logo"
+          href="index.html"
+        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40"
+          height="41"
+          viewBox="0 0 40 41"
+          fill="none"
+          class="header__mobile-menu"
+        >
+          <path
+            d="M5 30.5V27.1667H35V30.5H5ZM5 22.1667V18.8333H35V22.1667H5ZM5 13.8333V10.5H35V13.8333H5Z"
+            fill="#39763B"
+          />
         </svg>
         <ul class="header__list">
           <li class="header__item">
@@ -44,9 +59,9 @@
             </button>
           </li>
           <div class="header__popout">
-          <a href="./projects.html" class="header__projects" >Проєкти</a>
-          <a href="./team.html" class="header__team" >Команда</a>
-        </div>
+            <a href="./projects.html" class="header__projects">Проєкти</a>
+            <a href="./team.html" class="header__team">Команда</a>
+          </div>
           <li class="header__item">
             <a class="header__text" href="./news.html">Сокіл новини</a>
           </li>
@@ -59,9 +74,24 @@
         </ul>
         <button class="suport__button">Підтримати</button>
         <div class="header__box">
-          <img src="./pictures/ukraine.png" alt="" class="header__country" id="ukraine"/>
-          <img src="./pictures/ukraine.png" alt="" class="header__country" id="place"/>
-          <img src="./pictures/usa.png" alt="" class="header__country" id="usa"/>
+          <img
+            src="./pictures/ukraine.png"
+            alt=""
+            class="header__country"
+            id="ukraine"
+          />
+          <img
+            src="./pictures/ukraine.png"
+            alt=""
+            class="header__country"
+            id="place"
+          />
+          <img
+            src="./pictures/usa.png"
+            alt=""
+            class="header__country"
+            id="usa"
+          />
           <button class="header__select" id="languageHeader">
             <svg class="header__svg" id="languageHeaderArrow">
               <use href="./pictures/symbol-defs.svg#icon-arrow-down" />
@@ -69,27 +99,34 @@
           </button>
         </div>
       </div>
-      </header>
-      <div class="help help-page">
-        <div class="container cont__help">
-        <img src="./pictures/flower.png" alt="" class="help__flower" />
-        <img src="./pictures/leaf.png" alt="" class="help__leaf_one" />
-        <img src="./pictures/leaf.png" alt="" class="help__leaf_two" />
-        <h4 class="help__title">Кому допомогаємо</h4>
-        <ul class="help__list">
-          <li class="help__item">
-            <img src="./pictures/grandma.png" alt="" class="help__photo_one" />
-            <a href="./civilian.html" class="help__discription">Цивільні</a>
-          </li>
-          <li class="help__item">
-            <img src="./pictures/military.png" alt="" class="help__photo_two" />
-            <a href="/military.html" class="help__discription">Військові</a>
-          </li>
-        </ul>
+    </header>
+    <div class="thanks">
+      <div class="container">
+        <div class="thanks-one">
+          <img src="" alt="" class="thanks-photo" />
+          <p class="thanks-text">
+            З початку повномасштабного вторгнення рф члени сім’ї Наталії почали
+            на Заході Україні збирати продукти харчування, засоби гігієни,
+            медикаменти, одяг та організовувати перевезення вантажів з країн
+            Європі до України, по Україні в Луганську область, Бучу, Тернопіль
+            та інші міста; допомагати в забезпеченні медикаментами, медичними
+            засобами, хірургічними інструментами ініціативі Першого Хірургічного
+            Добровольчого Шпиталя в м. Івано-Франківськ, що надає медичну
+            допомогу пораненим захисникам України та цивільним постраждалим.
+            Також допомагали біженцям з України в Німеччині з пошуком житла та
+            оформленням документів, соціального статусу.
+          </p>
+        </div>
+        <div class="thanks-two">
+          <img src="" alt="" class="thanks-pictures" />
+          <img src="" alt="" class="thanks-pictures" />
+          <img src="" alt="" class="thanks-pictures" />
+        </div>
+        <h4 class="thanks-result">Результат:<span class="thanks-span"> жодна людина не залишилася на вулиці після евакуації.</span></h4>
       </div>
-      </div>
-      <footer class="footer">
-        <div class="container cont__footer">
+    </div>
+    <footer class="footer">
+      <div class="container cont__footer">
         <h2 class="footer__answer">Для запитань</h2>
         <p class="footer__mail">nashsokil@gmail.com</p>
         <ul class="footer__list">
@@ -107,7 +144,7 @@
 
         <p class="footer__end">©2024 “Наш Сокіл”</p>
       </div>
-      </footer>
-      <script type="module" src="./js/header.js"></script>
+    </footer>
+    <script type="module" src="/js/header.js"></script>
   </body>
 </html>

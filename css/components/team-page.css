@@ -1,18 +1,22 @@
 .team{
     margin-bottom: 122px;
+        background: linear-gradient(#fafff5d3, #fafff5d3),
+    url("../../pictures/logo.png");
+  background-size: 1000px 1000px;
+  background-position: top;
+background-repeat: no-repeat;
 }
+
 
 .friend{
     margin-bottom: 71px;
 }
 
 .team-body{
-    background: linear-gradient(#fafff5d3, #fafff5d3),
-    url("../../pictures/logo.png");
-  background-size: 1000px 1000px;
-  background-position: top;
-background-repeat: no-repeat;
+    background-color: #fafff5;
+    padding-bottom: 71px;
 }
+
 
 .team-main-title{
 font-size: 36px;
