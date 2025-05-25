@@ -1,0 +1,11 @@
+.help-body{
+    background-color: #fafff5;
+}
+
+.help-page{
+        background: linear-gradient(#fafff5d3, #fafff5d3),
+    url("../../pictures/logo.png");
+  background-size: 1000px 1000px;
+  background-position: top;
+  background-repeat: no-repeat;
+}

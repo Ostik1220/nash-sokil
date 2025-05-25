@@ -2,12 +2,17 @@
     background-color: #FAFFF5;
 }
 
-.thanks{
+.thanks-page{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 228px;
     padding-bottom: 100px;
+        background: linear-gradient(#fafff5d3, #fafff5d3),
+    url("../../pictures/logo.png");
+  background-size: 1000px 1000px;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .thanks-one{
@@ -19,6 +24,7 @@ align-items: center;
 gap: 16px;
 flex-shrink: 0;
 margin-bottom: 64px;
+
 }
 
 .thanks-photo{
