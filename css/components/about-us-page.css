@@ -17,6 +17,7 @@
 .start-title {
   display: flex;
   justify-content: center;
+  font-family: "Tinos";
   margin-bottom: 76px;
   position: relative;
   z-index: 3;
