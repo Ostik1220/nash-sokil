@@ -110,3 +110,11 @@ font-weight: 400;
 line-height: normal;
 border: none;
 }
+
+.partners-button:hover{
+    visibility: visible;
+    border: 1px solid #39763B;
+    background: #88BE47;
+    transition-duration: 250ms;
+  
+}

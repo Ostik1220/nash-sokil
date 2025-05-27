@@ -54,3 +54,7 @@ font-weight: 400;
 line-height: normal;
   }
 
+  a:hover{
+color: #39763B;
+transition-duration: 250ms;
+  }

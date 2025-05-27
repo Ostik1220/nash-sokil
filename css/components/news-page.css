@@ -1,0 +1,138 @@
+.news-body{
+    background-color: #fafff5;
+}
+
+.news-page{
+    padding-top: 100px;
+    padding-bottom: 106px;
+                background: linear-gradient(#fafff5d3, #fafff5d3),
+    url("../../pictures/logo.png");
+  background-size: auto auto,1000px 1000px ;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.news-cont{
+    display: flex;
+    
+}
+.news-title{
+    margin-bottom: 32px;
+    color: #000;
+font-family: "Tinos";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 44px; 
+    position: relative;
+    z-index: 0;
+}
+.news-flower-one{
+    width: 34px;
+height: 32px;
+flex-shrink: 0;
+position: absolute;
+top: -1px;
+left: -10px;
+z-index: -1;
+}
+.news-flower-two{
+    width: 34px;
+height: 32px;
+flex-shrink: 0;
+position: absolute;
+top: 9px;
+left: 187px;
+z-index: -1;
+}
+.news-flower-three{
+        width: 34px;
+height: 32px;
+position: absolute;
+top: 0px;
+left: 98px;
+z-index: -1;
+}
+.news-leaf-one{
+    width: 20.443px;
+height: 38.124px;
+position: absolute;
+top: 8.5px;
+left: 26px;
+z-index: -1;
+transform: rotate(180deg);
+}
+
+.reports-list{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+align-self: stretch;
+}
+
+.reports-items{
+display: flex;
+height: 270px;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+}
+
+.line{
+    width: 1px;
+height: 990.001px;
+flex-shrink: 0;
+    stroke-width: 1px;
+background-color: #000;
+margin-left: 144px;
+margin-right: 38px;
+}
+
+.news-picture{
+    background-color:  #9C9C9C;
+    width: 404px;
+height: 270px;
+}
+
+.report-text{
+    color: #000;
+font-family: "Tinos";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.report-text > a{
+    color:#000;
+}
+
+
+.news{
+    display: flex;
+width: 404px;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.news-list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.news-item{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.news-text{
+    color: #000;
+font-family: "Tinos";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
