@@ -18,7 +18,7 @@
 }
 
 .support-main-title {
-  font-family: "Tinos";
+  font-family: 'Irpin Type';
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -127,7 +127,7 @@ z-index: -1;
 .support-sub-title {
   color: var(--Black-people-0, #2a2d26);
   text-align: center;
-  font-family: "Tinos";
+  font-family: 'Irpin Type';
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -135,7 +135,7 @@ z-index: -1;
 }
 
 .support-text {
-  font-family: "Roboto";
+  font-family: "Mariupol";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -156,7 +156,7 @@ z-index: -1;
 
   color: var(--Fifth-100, #fafff5);
   text-align: center;
-  font-family: "Roboto";
+  font-family: "Mariupol";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -167,5 +167,25 @@ z-index: -1;
   visibility: visible;
   border: 1px solid #39763b;
   background: #88be47;
+  transition-duration: 250ms;
+}
+
+.support-svg:hover{
+  fill: #88be47;
+     transition-duration: 250ms;
+     cursor: pointer;
+}
+
+.support-svg:hover path{
+   fill: #88be47;
+   transition-duration: 250ms;
+   cursor: pointer;
+}
+
+.support-svg{
+  transition-duration: 250ms;
+}
+
+.support-svg path{
   transition-duration: 250ms;
 }

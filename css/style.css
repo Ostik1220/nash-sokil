@@ -10,3 +10,16 @@
 @import"./components/partners-page.css";
 @import"./components/support-page.css";
 @import"./components/news-page.css";
+@import"./components/contacts-page.css";
+@font-face {
+  font-family: 'Irpin Type';
+  src: url('../fonts/Irpin-Type.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mariupol';
+  src: url('../fonts/Mariupol.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

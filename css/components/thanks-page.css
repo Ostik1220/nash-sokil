@@ -36,7 +36,7 @@ flex-shrink: 0;
 
 .thanks-text{
     color: #000;
-    font-family: "Tinos";
+    font-family: 'Irpin Type';
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -61,7 +61,7 @@ background-color: #9C9C9C;
 .thanks-result{
     color: #000;
     gap: 25px;
-font-family: "Tinos";
+font-family: 'Irpin Type';
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
@@ -71,7 +71,7 @@ align-items: center;
 }
 
 .thanks-span{
-font-family: Roboto;
+font-family: 'Mariupol';
 font-size: 20px;
 line-height: 28px; 
 

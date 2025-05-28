@@ -1,60 +1,81 @@
 .container {
-    max-width: 328px;
-    width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: 0 auto;
-    padding-top: 16px;
-    
-    @media screen and (min-width: 768px) {
-      max-width: 768px;
-    }
-    @media screen and (min-width: 1280px) {
-      padding-left: 80px;
-      padding-right: 80px;
-      max-width: 1280px;
-    }
+  max-width: 328px;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  padding-top: 16px;
 
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
   }
-
-  h1{
-    font-family: "Cormorant Unicase";
-    color: #2A2D26;
+  @media screen and (min-width: 1280px) {
+    padding-left: 80px;
+    padding-right: 80px;
+    max-width: 1280px;
   }
-
-h2{
-    font-family: "Tinos";
 }
 
-  p,
-  h6{
-    font-family: 'Roboto';
-    color: #2A2D26;
-  }
+h1 {
+  font-family: "Cormorant Unicase";
+  color: #2a2d26;
+}
 
-  p{
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 140% */
-  }
+h2 {
+  font-family: "Irpin Type";
+}
 
-  body{
-    background-color: #E6F0D7;
-    transition-duration: 250ms;
-  }
+p,
+h6 {
+  font-family: "Mariupol";
+  color: #2a2d26;
+}
 
-  h4{
-    color: #2A2D26;
-text-align: center;
-font-family: "Tinos";
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-  }
+p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
 
-  a:hover{
-color: #39763B;
-transition-duration: 250ms;
-  }
+body {
+  background-color: #e6f0d7;
+  transition-duration: 250ms;
+}
+
+body:hover {
+  transition-duration: 250ms;
+}
+
+h4 {
+  color: #2a2d26;
+  text-align: center;
+  font-family: "Irpin Type";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+a:hover {
+  color: #39763b;
+  transition-duration: 250ms;
+}
+
+#flower{
+  width: 33.129px;
+height: 33.876px;
+position: absolute;
+}
+
+#leaf-one{
+  width: 30.627px;
+    height: 22.23px;
+    position: absolute;
+}
+
+#leaf-two{
+width: 22px;
+    height: 39px;
+    position: absolute;
+}

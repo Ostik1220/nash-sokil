@@ -19,7 +19,7 @@
 .news-title{
     margin-bottom: 32px;
     color: #000;
-font-family: "Tinos";
+font-family: 'Irpin Type';
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
@@ -97,7 +97,7 @@ height: 270px;
 
 .report-text{
     color: #000;
-font-family: "Tinos";
+font-family: 'Irpin Type';
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -130,7 +130,7 @@ align-items: flex-start;
 
 .news-text{
     color: #000;
-font-family: "Tinos";
+font-family: 'Irpin Type';
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
