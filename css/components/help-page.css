@@ -3,9 +3,79 @@
 }
 
 .help-page{
+    @media screen and (min-width: 1280px) {
         background: linear-gradient(#fafff5d3, #fafff5d3),
     url("../../pictures/logo.png");
   background-size: 1000px 1000px;
   background-position: top;
   background-repeat: no-repeat;
+    }
+}
+
+.help__title{
+  position: relative;
+}
+
+.help__flower-page{
+    left: 80.4%;
+    top: 31%;
+    z-index: -1;
+  @media screen and (min-width: 1280px) {
+    display: block;
+
+  }
+}
+.help__leaf_one-page{
+  position: absolute;
+    left: 7%;
+    top: 30%;
+    z-index: -1;
+  @media screen and (min-width: 1280px) {
+    display: block;
+
+  }
+}
+.help__leaf_two-page{
+  position: absolute;
+      left: 59%;
+    top: 35%;
+    z-index: -1;
+  @media screen and (min-width: 1280px) {
+    display: block;
+
+  }
+}
+
+.help__leaf_three-page{
+        left: 37%;
+    top: 26%;
+  position: absolute;
+    z-index: -1;
+  @media screen and (min-width: 1280px) {
+    display: block;
+
+  }
+}
+
+.help__leaf_four-page{
+          left: 49%;
+    top: 35%;
+  position: absolute;
+    z-index: -1;
+    rotate: 158deg;
+  @media screen and (min-width: 1280px) {
+    display: block;
+
+  }
+}
+
+.help__leaf_five-page{
+  position: absolute;
+  left: 93.5%;
+  top: 31%;
+    z-index: -1;
+  @media screen and (min-width: 1280px) {
+    display: block;
+
+  }
 }

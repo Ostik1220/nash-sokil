@@ -416,6 +416,9 @@ line-height: 28px; /* 155.556% */
 .cont__help {
   padding-top: 45px;
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .help__title {
@@ -433,51 +436,49 @@ line-height: 44px; /* 169.231% */
   margin-bottom: 80px;
   z-index: 5;
   display: block;
+  position: relative;
  }
 }
 
 .help__flower {
-  visibility: hidden;
   display: none;
-  @media screen and (min-width: 1280px) {
-    visibility: visible;
-    display: block;
-    width: 28px;
+      width: 28px;
     height: 32px;
     position: absolute;
     left: 605px;
     top: 43px;
     z-index: -1;
+  @media screen and (min-width: 1280px) {
+    display: block;
+
   }
 }
 .help__leaf_one {
-  visibility: hidden;
   display: none;
-  @media screen and (min-width: 1280px) {
-    visibility: visible;
-    display: block;
-    width: 35px;
+      width: 35px;
     height: 19px;
     left: 695px;
     top: 54px;
     position: absolute;
     transform: rotate(90deg);
     z-index: -1;
+  @media screen and (min-width: 1280px) {
+    display: block;
+
   }
 }
 .help__leaf_two {
-  visibility: hidden;
   display: none;
-  @media screen and (min-width: 1280px) {
-    visibility: visible;
-    display: block;
-    width: 35px;
+      width: 35px;
     height: 21px;
     transform: rotate(-138.349deg);
     position: absolute;
     left: 869px;
     top: 65px;
     z-index: -1;
+  @media screen and (min-width: 1280px) {
+    display: block;
+
   }
 }
 

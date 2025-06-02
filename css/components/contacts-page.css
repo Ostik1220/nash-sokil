@@ -1,9 +1,9 @@
 .contacts {
   padding-top: 100px;
   padding-bottom: 106px;
-              background: linear-gradient(#fafff5d3, #fafff5d3),
+  background: linear-gradient(#fafff5d3, #fafff5d3),
     url("../../pictures/logo.png");
-  background-size: auto auto,1000px 1000px ;
+  background-size: auto auto, 1000px 1000px;
   background-position: top;
   background-repeat: no-repeat;
 }
@@ -25,22 +25,34 @@
   z-index: 0;
 }
 
-#flower{
-  width: 33.129px;
-height: 33.876px;
-position: absolute;
+#flower {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  @media screen and (min-width: 1280px) {
+    width: 33.129px;
+    height: 33.876px;
+  }
 }
 
-#leaf-one{
+#leaf-one {
+width: 25px;
+height: 15px;
+  position: absolute;
+    @media screen and (min-width: 1280px) {
   width: 30.627px;
-    height: 22.23px;
-    position: absolute;
+  height: 22.23px;
+  }
 }
 
-#leaf-two{
-width: 22px;
+#leaf-two {
+  position: absolute;
+  width: 14px;
+  height: 27px;
+  @media screen and (min-width: 1280px) {
+    width: 22px;
     height: 39px;
-    position: absolute;
+  }
 }
 
 .contacts-flower-one {
@@ -116,17 +128,17 @@ width: 22px;
 
 .contacts-apps {
   display: flex;
-align-items: center;
-gap: 30px;
-align-self: stretch;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
 }
 
 .conacts-app {
-display: flex;
-width: 80px;
-flex-direction: column;
-align-items: center;
-gap: 4px;
+  display: flex;
+  width: 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
 }
 
 .contacts-app-icon {
