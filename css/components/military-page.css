@@ -1,13 +1,18 @@
 
 
 .military{
-        background: linear-gradient(#fafff5d3, #fafff5d3),
-    url("../../pictures/logo.png");
-  background-size: auto auto,1000px 1000px ;
-  background-position: top;
-  background-repeat: no-repeat;
-    padding-top: 100px;
-    padding-bottom: 186px;
+  padding-top: 40px;
+  @media screen and (min-width: 1280px) {
+    margin-top: 55px;
+    background: linear-gradient(#fafff5d3, #fafff5d3),
+      url("../../pictures/logo.png");
+    background-size: 1000px 1000px;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+}
+.military-body {
+  background: #fafff5;
 }
 
 .military-containre{
@@ -26,6 +31,9 @@ align-self: center;
 margin-bottom: 78px;
 position: relative;
 z-index: 0;
+    @media screen and (min-width: 1280px) {
+  margin-bottom: 80px;
+}
 }
 
 .military-flower{
@@ -59,10 +67,12 @@ flex-wrap: wrap;
 
 .military-item{
     display: flex;
-width: 624px;
 flex-direction: column;
 align-items: center;
 gap: 16px;
+    @media screen and (min-width: 1280px) {
+        width: 624px;
+    }
 }
 
 .military-photo{

@@ -1,4 +1,7 @@
 .partners{
+    margin-top: 40px;
+    margin-bottom: 40px;
+        @media screen and (min-width: 1280px) {
     padding-bottom: 106px;
             background: linear-gradient(#fafff5d3, #fafff5d3),
     url("../../pictures/logo.png");
@@ -6,6 +9,7 @@
   background-position: top;
   background-repeat: no-repeat;
     padding-top: 100px;
+        }
 
 }
 
@@ -25,8 +29,11 @@ font-style: normal;
 font-weight: 400;
 line-height: 44px; /* 122.222% */
 position: relative;
-margin-bottom: 52px;
+margin-bottom: 40px;
 z-index: 1;
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 52px;
+    }
 }
 
 .partners-flower{
@@ -52,6 +59,10 @@ z-index: -1;
 
 .partners-list{
     display: flex;
+    flex-direction: column;
+        @media screen and (min-width: 1280px) {
+            flex-direction: row;
+    }
 }
 
 .partners-item{
@@ -91,7 +102,7 @@ line-height: normal;
 
 .partners-button{
     display: flex;
-width: 556px;
+width: auto;
 height: 102px;
 padding: 16px 32px;
 margin-top: 58px;
@@ -103,11 +114,15 @@ background: #39763B;
 color:  #FAFFF5;
 text-align: center;
 font-family: "Mariupol";
-font-size: 32px;
+font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 border: none;
+    @media screen and (min-width: 1280px) {
+        width: 556px;
+        font-size: 32px;;
+    }
 }
 
 .partners-button:hover{
