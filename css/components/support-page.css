@@ -3,13 +3,16 @@
 }
 
 .support {
-  padding-top: 100px;
+  padding-top: px;
   padding-bottom: 100px;
-          background: linear-gradient(#fafff5d3, #fafff5d3),
+          @media screen and (min-width: 1280px) {
+    padding-top: 100px;
+              background: linear-gradient(#fafff5d3, #fafff5d3),
     url("../../pictures/logo.png");
   background-size: auto auto,1000px 1000px ;
   background-position: center;
   background-repeat: no-repeat;
+  }
 }
 
 .cont-support {
@@ -19,51 +22,50 @@
 
 .support-main-title {
   font-family: 'Irpin Type';
-  font-size: 36px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 400;
   line-height: 44px;
   align-self: center;
   position: relative;
   z-index: 1;
+  visibility: hidden;
+  display: none;
+        @media screen and (min-width: 1280px) {
+    font-size: 36px;
+    visibility: visible;
+    display: inline;
+  }
 }
 
 .support-flower-one{
-width: 31.899px;
-height: 31.623px;
 flex-shrink: 0;
 position: absolute;
-top: -1px;
-left: -10px;
+top: -10%;
+left: -5%;
 z-index: -1;
 }
 .support-leaf-one{
-    width: 34.897px;
-height: 19.267px;
 transform: rotate(125.348deg);
 flex-shrink: 0;
 position: absolute;
-top: 11px;
-left: 132px;
+top: 30%;
+left: 46%;
 z-index: -1;
 }
 .support-leaf-two{
-    width: 20.913px;
-height: 38.124px;
 transform: rotate(180.348deg);
 flex-shrink: 0;
 position: absolute;
-top: 10px;
-left: 212px;
+top: 30%;
+left: 73%;
 z-index: -1;
 }
 .support-flower-two{
-    width: 31.899px;
-height: 31.623px;
 flex-shrink: 0;
 position: absolute;
-top: 11px;
-left: 340px;
+top: 40%;
+left: 97%;
 z-index: -1;
 }
 .support-info {
@@ -75,25 +77,36 @@ z-index: -1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 231px;
+  flex-direction: column;
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    gap: 231px;
+  }
 }
 .support-two {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  gap: 41px;
+    @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    gap: auto;
+  }
 }
 
 .support-uah {
   display: flex;
-  width: 622px;
   padding: 20px;
   flex-direction: column;
   align-items: center;
   gap: 32px;
+    @media screen and (min-width: 1280px) {
+    width: 622px;
+  }
 }
 
 .support-eur {
   display: flex;
-  height: 546px;
   padding: 20px;
   flex-direction: column;
   align-items: flex-start;
@@ -103,7 +116,6 @@ z-index: -1;
 
 .support-usd {
   display: flex;
-  height: 546px;
   padding: 20px;
   flex-direction: column;
   align-items: flex-start;
@@ -136,14 +148,21 @@ z-index: -1;
 
 .support-text {
   font-family: "Mariupol";
-  font-size: 24px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 116.667% */
+    @media screen and (min-width: 1280px) {
+    font-size: 24px;
+  }
 }
 
 .support-button {
+  visibility: hidden;
+  display: none;
+    @media screen and (min-width: 1280px) {
   display: flex;
+  visibility: visible;
   width: 188px;
   height: 60px;
   padding: 12px 24px;
@@ -161,6 +180,7 @@ z-index: -1;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+    }
 }
 
 .support-button:hover {

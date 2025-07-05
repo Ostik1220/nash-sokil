@@ -5,12 +5,12 @@
 .news-page{
     padding-top: 40px;
     padding-bottom: 106px;
-                background: linear-gradient(#fafff5d3, #fafff5d3),
+            @media screen and (min-width: 1280px) { 
+background: linear-gradient(#fafff5d3, #fafff5d3),
     url("../../pictures/logo.png");
   background-size: auto auto,1000px 1000px ;
   background-position: center;
   background-repeat: no-repeat;
-            @media screen and (min-width: 1280px) {
     padding-top: 100px;
   }
 }
@@ -58,26 +58,21 @@ z-index: -1;
 height: 32px;
 flex-shrink: 0;
 position: absolute;
-top: 50%;
+top: 40%;
 left: 95%;
 z-index: -1;
 }
 .news-flower-three{
-        width: 34px;
-height: 32px;
 position: absolute;
-top: 0px;
-left: 98px;
+top: 40%;
+left: 88%;
 z-index: -1;
 }
 .news-leaf-one{
-    width: 20.443px;
-height: 38.124px;
 position: absolute;
-top: 8.5px;
-left: 26px;
+top: 15%;
+left: 20%;
 z-index: -1;
-transform: rotate(180deg);
 }
 
 .reports-list{
@@ -91,19 +86,18 @@ align-self: stretch;
 .reports-items{
 display: flex;
 align-items: center;
-gap: 32px;
+gap: 16px;
 align-self: stretch;
 flex-direction: column;
 @media screen and (min-width: 1280px) {
     flex-direction: row;
     height: 270px;
+    gap: 32px;
   }
 }
 
 .line{
-              @media screen and (min-width: 1280px) {
-    
-  
+@media screen and (min-width: 1280px) { 
     width: 1px;
 height: 990.001px;
 flex-shrink: 0;
@@ -116,8 +110,10 @@ margin-right: 38px;
 
 .news-picture{
     background-color:  #9C9C9C;
-    width: 404px;
 height: 270px;
+          @media screen and (min-width: 1280px) {
+    width: 404px;
+  }
 }
 
 .report-text{
@@ -135,10 +131,16 @@ line-height: normal;
 
 
 .news{
-    display: flex;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 36px;
+          @media screen and (min-width: 1280px) {
+        display: flex;
 width: 404px;
 flex-direction: column;
 align-items: flex-start;
+  }
 }
 
 .news-list{
