@@ -5,73 +5,97 @@
 /* start */
 
 .start {
-  padding-top: 100px;
-  margin-bottom: 48px;
-  background: linear-gradient(#fafff5d3, #fafff5d3),
+  padding-top: 40px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 1280px) {
+        padding-top: 100px;
+        margin-bottom: 48px;
+          background: linear-gradient(#fafff5d3, #fafff5d3),
     url("../../pictures/logo.png");
   background-size: 1000px 1000px;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    }
 }
 
 .start-title {
   display: flex;
   justify-content: center;
   font-family: 'Irpin Type';
-font-size: 36px;
+font-size: 26px;
 font-style: normal;
 font-weight: 400;
 line-height: 44px;
   margin-bottom: 76px;
   position: relative;
   z-index: 3;
+    flex-direction: column;
+    @media screen and (min-width: 1280px) {
+font-size: 36px;
+    }
 }
 
 .start-flower-one {
   position: absolute;
   z-index: -1;
-  left: -10px;
-  top: -2px;
+  left: -1%;
+  top: -2%;
   rotate: 150deg;
 }
 .start-leaf-one {
   position: absolute;
   z-index: -1;
   rotate: 320deg;
-  top: 14px;
-  left: 150px;
+  top: 40%;
+  left: 40%;
 }
 .start-leaf-two {
   position: absolute;
   z-index: -1;
   left: 240px;
+    top: 20%;
+  left: 83%;
 }
 .start-flower-two {
   position: absolute;
   z-index: -1;
-  top: 10px;
-  left: 340px;
+  top: 40%;
+  left: 95%;
 }
 
 .start-list {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 24px;
+    @media screen and (min-width: 1280px) {
+    gap: 48px;
+  }
 }
 
 .start-item {
   display: flex;
-  gap: 33px;
-  background: #e6f0d7;
+  gap: 24px;
   padding: 24px;
   align-items: center;
+  flex-direction: column;
+  background: none;
+  padding: 1px;
+    @media screen and (min-width: 1280px) {
+      padding: 24px;
+        background: #e6f0d7;
+      flex-direction: row;
+      gap: 33px;
+    }
 }
 
 .start-item:nth-child(2) {
+    flex-direction: column;
+    @media screen and (min-width: 1280px) {
   flex-direction: row-reverse;
+    }
 }
 
 .start-pic {
@@ -79,32 +103,54 @@ line-height: 44px;
   height: 267px;
 }
 
+.start-text{
+  background: #e6f0d7;
+  font-size: 16px;
+  padding: 20px;
+    @media screen and (min-width: 1280px) {
+font-size: 20px;
+padding: auto;
+    }
+}
+
 .au-gallery {
   display: flex;
+flex-direction: column;
+gap: 24px;
+   @media screen and (min-width: 1280px) {
+    flex-direction: row;
   align-items: center;
   gap: 32px;
   margin-bottom: 92px;
   height: 306px;
+   }
 }
 
 /* project */
 
 .project-main-title {
-  font-size: 36px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 400;
   line-height: 44px; /* 122.222% */
   display: flex;
   justify-content: center;
+    @media screen and (min-width: 1280px) {
+    font-size: 36px;
+  }
 }
 
 .projects {
   padding-bottom: 80px;
-  background: linear-gradient(#fafff5d3, #fafff5d3),
+  margin-top: 48px;
+    @media screen and (min-width: 1280px) {
+    margin-top: 0px;
+      background: linear-gradient(#fafff5d3, #fafff5d3),
     url("../../pictures/logo.png");
   background-size: 1000px 1000px;
   background-position: center;
   background-repeat: space;
+  }
 }
 
 .project-list {
@@ -112,26 +158,49 @@ line-height: 44px;
   align-items: center;
   gap: 40px;
   flex-direction: column;
-  margin-top: 60px;
+  @media screen and (min-width: 1280px) {
+    margin-top: 60px;
+  }
 }
 
 .project-item {
   display: flex;
   gap: 32px;
   align-self: stretch;
+  flex-direction: column;
+    @media screen and (min-width: 1280px) {
+    flex-direction: row;
+  }
 }
 
 .project-project {
   display: flex;
-  width: 624px;
-  padding: 16px;
+  
   flex-direction: column;
   align-items: center;
   gap: 16px;
+    @media screen and (min-width: 1280px) {
+    width: 624px;
+    padding: 16px;
+  }
 }
 
 .project-img {
   height: 296px;
-  align-self: stretch;
+
   background: #9c9c9c;
+}
+
+.project-title{
+  font-size: 18px;
+    @media screen and (min-width: 1280px) {
+    font-size: 24px;
+  }
+}
+
+.project-text{
+  font-size: 16px;
+    @media screen and (min-width: 1280px) {
+    font-size: 20px;
+  }
 }

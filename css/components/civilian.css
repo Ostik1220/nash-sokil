@@ -36,8 +36,11 @@
 }
 .civilian-photo {
   height: 318px;
-  align-self: stretch;
+  overflow: hidden;
   background-color: #9c9c9c;
+    @media screen and (min-width: 1280px) {
+      align-self: stretch;
+    }
 }
 .civilian-list {
   display: flex;
